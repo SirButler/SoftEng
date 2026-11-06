@@ -1,0 +1,164 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="hnIivLT5RnJZgGvuS2fD">
+    <mxGraphModel dx="824" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="960" width="710" x="110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Benutzer" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-7" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-5" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="yOKoD-ujLC4PWsql2xlX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Verwalter" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Kaffeeautomat" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-33" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-9" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=none;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-57" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-9" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=open;endFill=0;dashed=1;" target="yOKoD-ujLC4PWsql2xlX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-58" connectable="0" parent="yOKoD-ujLC4PWsql2xlX-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.7629" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Kaffee zubereiten" vertex="1">
+          <mxGeometry height="70" width="140" x="230" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-29" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-10" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;dashed=1;endArrow=open;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-31" connectable="0" parent="yOKoD-ujLC4PWsql2xlX-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2769" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Kaffeevariante wählen" vertex="1">
+          <mxGeometry height="70" width="140" x="340" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-40" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-11" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;dashed=1;endArrow=open;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-41" connectable="0" parent="yOKoD-ujLC4PWsql2xlX-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1082" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Tassengröße wählen" vertex="1">
+          <mxGeometry height="70" width="140" x="500" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-36" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-12" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;dashed=1;endArrow=open;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-39" connectable="0" parent="yOKoD-ujLC4PWsql2xlX-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;div&gt;{falls aktiv}&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0247" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Bilanz-Mail senden" vertex="1">
+          <mxGeometry height="70" width="140" x="350" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-35" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-13" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;flowAnimation=0;dashed=1;endArrow=open;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-37" connectable="0" parent="yOKoD-ujLC4PWsql2xlX-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1247" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Kaffeeverbrauch registrieren" vertex="1">
+          <mxGeometry height="70" width="140" x="160" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-42" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-15" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=open;endFill=0;dashed=1;" target="yOKoD-ujLC4PWsql2xlX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-43" connectable="0" parent="yOKoD-ujLC4PWsql2xlX-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0368" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Authentifizieren" vertex="1">
+          <mxGeometry height="70" width="140" x="500" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-44" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-16" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=block;endFill=1;" target="yOKoD-ujLC4PWsql2xlX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Anmeldung mit Magnetstreifenkarte" vertex="1">
+          <mxGeometry height="70" width="140" x="660" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-45" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-17" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=block;endFill=1;" target="yOKoD-ujLC4PWsql2xlX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Anmeldung mit Zugangsdaten" vertex="1">
+          <mxGeometry height="70" width="140" x="660" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-34" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-18" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=none;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Geld bei Verwalter einzahlen" vertex="1">
+          <mxGeometry height="70" width="140" x="140" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-49" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-19" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=none;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Benutzer anlegen" vertex="1">
+          <mxGeometry height="70" width="140" x="150" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-52" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-20" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=open;endFill=0;dashed=1;" target="yOKoD-ujLC4PWsql2xlX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-53" connectable="0" parent="yOKoD-ujLC4PWsql2xlX-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0143" y="-4" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Passwort generieren" vertex="1">
+          <mxGeometry height="70" width="140" x="250" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-50" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-21" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=open;endFill=0;dashed=1;" target="yOKoD-ujLC4PWsql2xlX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-51" connectable="0" parent="yOKoD-ujLC4PWsql2xlX-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1316" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Magnetstreifenkarte generieren" vertex="1">
+          <mxGeometry height="70" width="140" x="410" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-48" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-22" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=none;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Rechnung verschicken" vertex="1">
+          <mxGeometry height="70" width="140" x="150" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-46" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-23" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=none;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Wartungsmodus aktivieren" vertex="1">
+          <mxGeometry height="70" width="140" x="170" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-47" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-24" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=open;endFill=0;dashed=1;" target="yOKoD-ujLC4PWsql2xlX-23" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Preise einstellen" vertex="1">
+          <mxGeometry height="70" width="140" x="410" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-32" edge="1" parent="1" source="yOKoD-ujLC4PWsql2xlX-25" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;endArrow=none;endFill=0;" target="yOKoD-ujLC4PWsql2xlX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOKoD-ujLC4PWsql2xlX-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Bilanz-Mail de-/aktivieren" vertex="1">
+          <mxGeometry height="70" width="140" x="140" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
